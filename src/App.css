@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #202020;
+  color: white;
+}
+
+.employees-list {
+  max-width: 768px;
+  margin: auto;
+}
+
+.employee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  border-bottom: 1px solid #dadada;
+  align-items: center;
+  height: 40px;
+}
+
+.employee-name {
+  width: 200px;
+  align-self: center;
+}
+
+.employees-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 768px;
+  margin: auto;
+}
+
+.employees-table-name {
+  width: 200px;
+}
+
+.add-employee-form {
+  margin: 30px auto 0px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
